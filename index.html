@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="assests/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -12,8 +14,13 @@
 </head>
 <body>
 <header>
-    <img class="logo" src="assests/images/logo_woodwork.png">
+    
+        <img class="logo" src="assests/images/logo_woodwork.png">
+    
     <nav class="nav_menu">
+        <div class="boton_menu">
+            <i class="fas fa-times close-btn"></i>
+        </div>
                 <ul>
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#¿Cómo funciona?">¿Cómo funciona?</a></li>
@@ -24,6 +31,10 @@
 
                 </ul>
             </nav>
+            <div class="boton_menu">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+
 </header>
 
 <div class="fondo_atras">
@@ -290,5 +301,26 @@
 </footer>
 
 </div>
+    <script type="text/javascript"> 
+        window.addEventListener("scroll", function(){
+            var header=document.querySelector("header");
+            header.classList.toggle('down', window.scrollY==0);
+        })
+
+        
+
+    var menu = document.querySelector('.nav_menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+    menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+    menu.classList.remove('active');
+    });
+
+    </script>
 </body>
 </html>

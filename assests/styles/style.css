@@ -8,17 +8,30 @@
 }
 
 header{
-    background: #d1bc7dde;
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 85px;
-    
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+    transition: 0.6s;
 }
 
-
+header .boton_menu{
+color: #ffffff;
+font-size: 25px;
+cursor:pointer;
+display: none;
+padding: 15px;
+}
     
+header.down{
+    background: #B8774F;
     
+}
 
 
 
@@ -34,18 +47,20 @@ font-size: 25px;
 .nav_menu ul li {
     display: inline-block;
     padding: 15px;
-   font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 .nav_menu ul li a{
     text-decoration: none;
     color: rgb(48, 48, 48);
+    border-radius: 20px;
+    padding: 7px 12px;
     
 }
 
 .nav_menu ul li a:hover{
  
-    color: #B8774F;
+    background: #B8774F;
     font-size: 27px;
     
 }
@@ -359,7 +374,54 @@ footer{
     background-color: #532e17;
   }
 
+@media screen and (max-width:990px){
+
+    header .boton_menu{
+        display: block;
+    }
+    header .nav_menu.active{
+        right: 0;
+    }
+
+    header .nav_menu .close-btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 25px;
+    }
+
+    header .nav_menu{
+        position: fixed;
+        background:#B8774F;
+        min-width: 330px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+        
+    }
+
+    header .menu ul li a{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+
+    .nav_menu ul{
+           
+        font-size: 15px;
+        flex-direction: column;
+        }
+    
+    
+    }
+  
     @media screen and (max-width:480px){
+
+
         .seccion_1{
             display: flex;
             flex-direction: column;
@@ -378,7 +440,6 @@ footer{
         .nav_menu ul{
            
             font-size: 15px;
-            
             }
         
             .botones_descarga{
