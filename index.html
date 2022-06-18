@@ -57,15 +57,15 @@
 </h2>
 
     <div class="botones_descarga">
-        <img class="imagen_1" src="assests/images/google_play.png" height="70px" width="250px">
-        <img class="imagen_2" src="assests/images/app_store.png" height="70px" width="250px"> 
+        <img class="imagen_1" src="assests/images/google_play.png" >
+        <img class="imagen_2" src="assests/images/app_store.png" > 
     </div>   
     </div>
 
 
 
     <div class="imagenes_muestra_1">
-        <img class="imagen_3" src="assests/images/seccion_1.png" height="600px" width="500px" >
+        <img class="imagen_3" src="assests/images/seccion_1.png" >
     </div>
 
 
@@ -80,20 +80,20 @@
 
     <div class="imagenes_muestra_2">
         <a class="prot_">
-        <img class="imagen_3" src="assests/images/prot_5.png" height="450px" >
+        <img class="imagen_3" src="assests/images/prot_5.png" >
         <p>&nbsp Registrate <br>   </p>
         </a>
         <a class="prot_">
-        <img class="imagen_3" src="assests/images/prot_4.png" height="450px" >
+        <img class="imagen_3" src="assests/images/prot_4.png" >
         <p>&nbsp Encuentra <br> &nbsp carpinteros</p> 
         </a>
         <a class="prot_">
-        <img class="imagen_3" src="assests/images/pro_2.png" height="450px" >
+        <img class="imagen_3" src="assests/images/pro_2.png" >
         <p>&nbsp &nbsp  Sube tus <br>&nbsp &nbsp  anuncios </p>
         </a>
         <a class="prot_">
-            <img class="imagen_3" src="assests/images/prot_3.png" height="450px"width="210px">
-            <p>&nbsp Tus muebles <br>&nbsp &nbsp  &nbsp en 3D </p>
+            <img class="imagen_3" src="assests/images/prot_3.png" >
+            <p>&nbsp &nbsp Diseña tus <br> &nbsp  muebles en 3D </p>
             </a>
 
     </div>
@@ -124,7 +124,7 @@
             </div>
     
             <div class="imagenes_celular">
-                <img class="imagen_3" src="assests/images/prot_1.png" height="620vw">
+                <img class="imagen_3" src="assests/images/prot_1.png">
             </div>
     
     
@@ -285,9 +285,9 @@
         <img src="assests/images/logo_woodwork.png" width="250px">
     <div class="botones_redes_sociales">
         <h2>Redes Sociales</h2>
-        <img class="imagen_1" src="assests/images/facebook.png" height="50px">
-        <img class="imagen_2" src="assests/images/gmail.png" height="50px" > 
-        <img class="imagen_2" src="assests/images/whatsapp.png" height="50px" > 
+        <img class="imagen_redes" src="assests/images/facebook.png" height="50px">
+        <img class="imagen_redes" src="assests/images/gmail.png" height="50px" > 
+        <img class="imagen_redes" src="assests/images/whatsapp.png" height="50px" > 
     </div>  
     </div>
     <div class="footer2">
@@ -304,10 +304,8 @@
     <script type="text/javascript"> 
         window.addEventListener("scroll", function(){
             var header=document.querySelector("header");
-            header.classList.toggle('down', window.scrollY==0);
+            header.classList.toggle('down',window.scrollY>0);
         })
-
-        
 
     var menu = document.querySelector('.nav_menu');
     var menuBtn = document.querySelector('.menu-btn');

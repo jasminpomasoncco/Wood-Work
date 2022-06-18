@@ -12,12 +12,13 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 85px;
+    height: 90px;
     position:fixed;
     top:0;
     left:0;
     z-index: 999;
     transition: 0.6s;
+    background: #B8774F;
 }
 
 header .boton_menu{
@@ -29,7 +30,8 @@ padding: 15px;
 }
     
 header.down{
-    background: #B8774F;
+    background: #b8774fdc;
+    height: 70px;
     
 }
 
@@ -59,14 +61,14 @@ font-size: 25px;
 }
 
 .nav_menu ul li a:hover{
- 
-    background: #B8774F;
+
     font-size: 27px;
     
 }
 
 .logo{
     max-width: 100px;
+    height: 70px;
 }
 
 body{
@@ -88,37 +90,37 @@ body{
     justify-content: space-evenly;
 }
 
-
-
 .seccion_1{
     display: flex;
+    margin-top: 35px;
 
 }
 .seccion_2{
     display: flex;
     flex-direction: column;
-
+    margin-top: 35px;
     }
 .seccion_3{
     display: flex;
     align-items:center;
-    
+    margin-top: 35px;
 }   
 .seccion_4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    margin-top: 35px;
 }   
 .seccion_5{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 35px;
 }
 .seccion_6{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 35px;
 } 
 
 .personas_s4{
@@ -138,6 +140,7 @@ body{
 .seccion_4 h3{
     
     text-align: center;
+
 }
 
 .seccion_5 h1{
@@ -246,10 +249,15 @@ flex-direction: column;
     margin-top: 50px;
 }
 
+
 .imagenes_muestra_1{
     margin: 3%;
 }
 
+.imagenes_muestra_1 .imagen_3{
+  height:45vw;
+    width:35vw;   
+}
 
 .imagenes_muestra_2{
     display: flex;
@@ -259,17 +267,56 @@ flex-direction: column;
 }
 
 .imagenes_muestra_2 p{
-    font-size: 40px;
+    font-size: 3vw;
     color: #ffffff;
     
 }
 
+
+.imagen_1{
+    height:5vw;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_2{
+    height:5vw;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+}
+
 .imagen_3{
-    border-radius: 48px;
+    border-radius: 34px;
+    
+}
+
+.imagenes_celular .imagen_3{
+    height:40vw; 
+}
+
+.imagen_1:hover{
+    height:6vw;
+    width:25vw;
+}
+
+.imagen_2:hover{
+    height:6vw;
+    width:25vw;
+}
+
+.imagen_redes{
+    padding: 10px;
 }
 
 .prot_{
     margin: auto;
+}
+
+.prot_ .imagen_3{
+    height:30vw;
+    width: 15vw; 
 }
 
 main{
@@ -282,14 +329,16 @@ h1{
     margin:3%;
     color: #C8B57D;
     text-align: center;
-    font-size: 50px;
+    font-size: 4vw;
     font-family: 'Inter', sans-serif;
 }
 
 h2{
-    margin: 20px;
+    margin: 15px;
     color: white;
     font-family: 'Cormorant', serif;
+    text-align: center;
+    font-size: 2vw;
 }
 
 .footer1{
@@ -393,7 +442,7 @@ footer{
     header .nav_menu{
         position: fixed;
         background:#B8774F;
-        min-width: 330px;
+        min-width: 200px;
         height: 100vh;
         top: 0;
         right: -100%;
@@ -415,9 +464,45 @@ footer{
         font-size: 15px;
         flex-direction: column;
         }
-    
+        .imagenes_muestra_2 {
+            
+            flex-wrap: wrap;
     
     }
+    
+    .imagenes_muestra_1 {
+        display: flex;
+        justify-content: center;
+}
+
+    
+
+
+    .seccion_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personas{
+        flex-wrap: wrap;
+    }
+
+    .planes_{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .columna_s2{
+        margin-top: 10px;
+        height:60vw;
+        width: 30vw;
+    }
+    .imagen_3{
+        border-radius: 20px;
+        
+    }
+
+}
   
     @media screen and (max-width:480px){
 
@@ -442,10 +527,6 @@ footer{
             font-size: 15px;
             }
         
-            .botones_descarga{
-              display: flex;
-              flex-direction: column;
-            }
             
             .imagenes_muestra_2{
                 display: flex;
@@ -501,5 +582,9 @@ footer{
             .footer2{
                 padding: 20px;
             }
-
+            
+            .imagen_3{
+                border-radius: 15px;
+                
+            }
     }
