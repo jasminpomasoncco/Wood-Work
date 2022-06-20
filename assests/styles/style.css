@@ -116,12 +116,6 @@ body{
     flex-direction: column;
     margin-top: 35px;
 }
-.seccion_6{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px;
-} 
 
 .personas_s4{
     margin-top: 50px;
@@ -382,47 +376,6 @@ footer{
     flex-direction: column;
 }
 
-
-
-.contacto {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    align-items: center;
-    background: #C8B57D;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 35px;
-    box-shadow: 7px 15px 37px rgb(0, 0, 0);
-    color: #000000;
-  }
-
-
-
-  .controles {
-    width: 96%;
-  
-    border-radius: 5px;
-    margin-bottom: 16px;
-    font-size: 15px;
-    background: #ffffff;
-    color: #000000;
-    border: 10px solid #ffffff;
-  }
-
-  .contacto .botons {
-    width: 100%;
-    background-color: #B8774F;
-    color: #ffffff;
-    border: none;
-    border-radius: 30px;
-    padding: 20px;
-  }
-
-  .contacto .botons:hover{
-    background-color: #532e17;
-  }
-
 @media screen and (max-width:990px){
 
     header .boton_menu{
@@ -564,19 +517,10 @@ footer{
                 flex-direction: column;
             }
 
-            .contacto {
-               
-                width: 350px;
-                
-                background: #C8B57D;
-                padding: 25px;
-                
-              }
-
-              .footer1{ 
-                  flex-direction: column;
-                  align-items: center;
-                  padding: 20px;
+            .footer1{ 
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
             }
 
             .footer2{
