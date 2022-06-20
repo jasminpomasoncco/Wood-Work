@@ -261,7 +261,7 @@ flex-direction: column;
 }
 
 .imagenes_muestra_2 p{
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #ffffff;
     
 }
@@ -323,7 +323,7 @@ h1{
     margin:3%;
     color: #C8B57D;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: 'Inter', sans-serif;
 }
 
@@ -332,7 +332,7 @@ h2{
     color: white;
     font-family: 'Cormorant', serif;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 .footer1{
@@ -455,6 +455,16 @@ footer{
         
     }
 
+    .nav_menu ul li a:hover{
+
+        font-size: 15px;
+        
+    }
+
+    h2{
+        font-size: 3.5vw;
+    }
+
 }
   
     @media screen and (max-width:480px){
@@ -463,6 +473,7 @@ footer{
         .seccion_1{
             display: flex;
             flex-direction: column;
+            margin-top: 55px;
         }
         
         .seccion_3{
@@ -494,6 +505,8 @@ footer{
             
             h2{
                 margin: 10px;
+                font-size: 4vw;
+                
                 
             }
 
@@ -529,6 +542,17 @@ footer{
             
             .imagen_3{
                 border-radius: 15px;
+                
+            }
+
+            .prot_ .imagen_3{
+                height:60vw;
+                width: 31vw; 
+            }
+
+            .imagenes_muestra_2 p{
+                font-size: 5vw;
+
                 
             }
     }
