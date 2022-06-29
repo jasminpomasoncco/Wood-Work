@@ -18,7 +18,7 @@ header{
     left:0;
     z-index: 999;
     transition: 0.6s;
-    background: #B8774F;
+    background: #a1643e;
 }
 
 header .boton_menu{
@@ -30,7 +30,7 @@ padding: 15px;
 }
     
 header.down{
-    background: #b8774fdc;
+    background: #a1643ecc;
     height: 70px;
     
 }
@@ -54,7 +54,7 @@ font-size: 25px;
 }
 .nav_menu ul li a{
     text-decoration: none;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 7px 12px;
     
@@ -117,11 +117,26 @@ body{
     margin-top: 35px;
 }
 
+.seccion_6{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 35px;
+    justify-content:space-around;
+} 
+
+
+
 .personas_s4{
     margin-top: 50px;
     border-radius: 130px;
     border: 3px #B8774F solid;
+
+}
+
+.personas_s4 img{
     width: 150px;
+    height: 150px;
 }
 
 
@@ -138,7 +153,7 @@ body{
 }
 
 .seccion_5 h1{
-    color: #B8774F;
+    color: #C8B57D;
 }
 
     h3{
@@ -160,8 +175,12 @@ body{
     }
 
     .botones_plan:hover{
-        background: #532e17;
-        border:5px #532e17 solid;
+        background: #a1643e;
+        border:5px #a1643e solid;
+    }
+
+    .columna_s2:hover{
+        border:5px #B8774F solid;
     }
     
     .planes_{
@@ -174,12 +193,12 @@ body{
     
         background: #ffffffab;
         border-radius: 45px;
-        border:5px #B8774F solid;
+        border:5px #a1643e solid;
         padding: 5px;
         margin: auto;
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 480px;
         width: 300px;
         justify-content:space-around;
     
@@ -249,8 +268,8 @@ flex-direction: column;
 }
 
 .imagenes_muestra_1 .imagen_3{
-  height:45vw;
-    width:35vw;   
+  height:44vw;
+    width:34vw;   
 }
 
 .imagenes_muestra_2{
@@ -355,16 +374,14 @@ h2{
 }
 
 .footer2 ul{
-
     list-style: none;
     display:flex;
     justify-content: space-between;
 
-
 }
 .footer2 ul li{
 
-   margin-left: 75px;
+margin-left: 75px;
 margin-right: 25px;
 
 }
@@ -434,6 +451,8 @@ footer{
     .seccion_1{
         display: flex;
         flex-direction: column;
+            margin-top: 47px;
+        
     }
 
     .personas{
