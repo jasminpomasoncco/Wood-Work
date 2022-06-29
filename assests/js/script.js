@@ -25,8 +25,8 @@ var data = google.visualization.arrayToDataTable([
 ['Enero',     20],
 ['Febrero',      35],
 ['Marzo',  25],
-['Abril', 10],
-['Mayo',    10]
+['Abril', 15],
+['Mayo',    5]
 
 
 ]);
