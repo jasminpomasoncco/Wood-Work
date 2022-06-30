@@ -21,7 +21,7 @@ header{
     background: #a1643e;
 }
 
-header .boton_menu{
+header .menu_button{
 color: #ffffff;
 font-size: 25px;
 cursor:pointer;
@@ -79,45 +79,45 @@ body{
     
 }
 
-.fondo_atras{
+.background_back{
     background-color: rgba(0, 0, 0, 0.562);
     max-width: 100%;
 }
 
-.botones_descarga{
+.buttons_download{
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.seccion_1{
+.section_1{
     display: flex;
     margin-top: 35px;
 
 }
-.seccion_2{
+.section_2{
     display: flex;
     flex-direction: column;
     margin-top: 35px;
     }
-.seccion_3{
+.section_3{
     display: flex;
     align-items:center;
     margin-top: 35px;
 }   
-.seccion_4{
+.section_4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 35px;
 }   
-.seccion_5{
+.section_5{
     display: flex;
     flex-direction: column;
     margin-top: 35px;
 }
 
-.seccion_6{
+.section_6{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -127,32 +127,32 @@ body{
 
 
 
-.personas_s4{
+.people_s4{
     margin-top: 50px;
     border-radius: 130px;
     border: 3px #B8774F solid;
 
 }
 
-.personas_s4 img{
+.people_s4 img{
     width: 150px;
     height: 150px;
 }
 
 
-.seccion_4 p{
+.section_4 p{
     margin: 30px;
     text-align: center;
     color: #000000;
 }
 
-.seccion_4 h3{
+.section_4 h3{
     
     text-align: center;
 
 }
 
-.seccion_5 h1{
+.section_5 h1{
     color: #C8B57D;
 }
 
@@ -163,7 +163,7 @@ body{
 
     }
     
-    .botones_plan{
+    .buttons_plan{
         background: #B8774F;
         border-radius: 17px;
         border:5px #B8774F solid;
@@ -174,22 +174,22 @@ body{
         font-size: x-large;
     }
 
-    .botones_plan:hover{
+    .buttons_plan:hover{
         background: #a1643e;
         border:5px #a1643e solid;
     }
 
-    .columna_s2:hover{
+    .column_s2:hover{
         border:5px #B8774F solid;
     }
     
-    .planes_{
+    .plans_{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     }
 
-    .columna_s2{
+    .column_s2{
     
         background: #ffffffab;
         border-radius: 45px;
@@ -204,13 +204,13 @@ body{
     
     }
     
-    .columna_s2 h1{
+    .column_s2 h1{
         color: #000000;
         text-align: center;
         font-size: 25px;
     }
 
-    .columna_s2 p{
+    .column_s2  p{
         color: #000000;
         text-align:center;
         margin:10px;
@@ -218,14 +218,14 @@ body{
     }
 
     
-.columna_1{
+.column_1{
 padding: 10px;
 display: flex;
 flex-direction: column;
 justify-content: center
 }
 
-.personas{
+.peoples{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -236,19 +236,19 @@ justify-content: center
     
 }
 
-.fondo_nosotros{
+.background_us{
     background-color: #C8B57D;
     border-radius: 20px;
 }
 
-.personas p{
+.people p{
     color: white;
     text-align: center;
     padding: 15px;
     color:#252525;
 }
 
-.columna_3{
+.column_3{
 padding: 10px;
 display: flex;
 flex-direction: column;
@@ -256,70 +256,70 @@ flex-direction: column;
 }
 
 
-.imagenes_celular{
+.images_phone{
     margin-right: 90px;
     margin-left: 90px;
     margin-top: 50px;
 }
 
 
-.imagenes_muestra_1{
+.images_sample_1{
     margin: 3%;
 }
 
-.imagenes_muestra_1 .imagen_3{
+.images_sample_1 .image_3{
   height:44vw;
     width:34vw;   
 }
 
-.imagenes_muestra_2{
+.images_sample_2{
     display: flex;
     justify-content: center;
     margin-right: 90px;
     margin-left: 90px;
 }
 
-.imagenes_muestra_2 p{
+.images_sample_2 p{
     font-size: 2.5vw;
     color: #ffffff;
     
 }
 
 
-.imagen_1{
+.image_1{
     height:5vw;
     width:20vw;
     display: flex;
     justify-content: center;
 }
 
-.imagen_2{
+.image_2{
     height:5vw;
     width:20vw;
     display: flex;
     justify-content: center;
 }
 
-.imagen_3{
+.image_3{
     border-radius: 34px;
     
 }
 
-.imagenes_celular .imagen_3{
+.images_phone .image_3{
     height:40vw; 
 }
 
-.imagen_1:hover{
+.image_1:hover{
     height:6vw;
     width:25vw;
 }
 
-.imagen_2:hover{
+.image_2:hover{
     height:6vw;
     width:25vw;
 }
 
-.imagen_redes{
+.imagen_networks{
     padding: 10px;
 }
 
@@ -327,7 +327,7 @@ flex-direction: column;
     margin: auto;
 }
 
-.prot_ .imagen_3{
+.prot_ .image_3{
     height:30vw;
     width: 15vw; 
 }
@@ -395,7 +395,7 @@ footer{
 
 @media screen and (max-width:990px){
 
-    header .boton_menu{
+    header .menu_button{
         display: block;
     }
     header .nav_menu.active{
@@ -434,13 +434,13 @@ footer{
         font-size: 15px;
         flex-direction: column;
         }
-        .imagenes_muestra_2 {
+        .images_sample_2 {
             
             flex-wrap: wrap;
     
     }
     
-    .imagenes_muestra_1 {
+    .images_sample_1 {
         display: flex;
         justify-content: center;
 }
@@ -448,28 +448,28 @@ footer{
     
 
 
-    .seccion_1{
+    .section_1{
         display: flex;
         flex-direction: column;
             margin-top: 47px;
         
     }
 
-    .personas{
+    .peoples{
         flex-wrap: wrap;
     }
 
-    .planes_{
+    .plans_{
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
-    .columna_s2{
+    .column_s2 {
         margin-top: 10px;
         height:60vw;
         width: 30vw;
     }
-    .imagen_3{
+    .image_3{
         border-radius: 20px;
         
     }
@@ -489,17 +489,17 @@ footer{
     @media screen and (max-width:480px){
 
 
-        .seccion_1{
+        .section_1{
             display: flex;
             flex-direction: column;
             margin-top: 55px;
         }
         
-        .seccion_3{
+        .section_3{
             
             flex-direction: column;
         }   
-        .seccion_4{
+        .section_4{
             display: flex;
             flex-direction: column;
             
@@ -511,7 +511,7 @@ footer{
             }
         
             
-            .imagenes_muestra_2{
+            .images_sample_2{
                 display: flex;
                 flex-direction: column;
             }
@@ -529,11 +529,11 @@ footer{
                 
             }
 
-            .planes_{
+            .plans_{
                 flex-direction: column;
             }
 
-            .columna_s2{
+            .column_s2 {
     
                 
                 padding: 10px;
@@ -545,7 +545,7 @@ footer{
                 
             }
 
-            .personas{
+            .peoples{
                 flex-direction: column;
             }
 
@@ -559,17 +559,17 @@ footer{
                 padding: 20px;
             }
             
-            .imagen_3{
+            .image_3{
                 border-radius: 15px;
                 
             }
 
-            .prot_ .imagen_3{
+            .prot_ .image_3{
                 height:60vw;
                 width: 31vw; 
             }
 
-            .imagenes_muestra_2 p{
+            .images_sample_2 p{
                 font-size: 5vw;
             }
     }
